@@ -1,7 +1,5 @@
 FROM agrigorev/zoomcamp-model:2025
 
-# add your stuff here
-
 WORKDIR /app
 
 COPY pyproject.toml poetry.lock* ./
