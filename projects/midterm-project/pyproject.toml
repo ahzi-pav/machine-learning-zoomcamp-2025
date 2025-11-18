@@ -1,0 +1,13 @@
+[project]
+name = "midterm-project"
+version = "0.1.0"
+description = "This is a project for Machine Learning Zoomcamp 2025 cohort"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "scikit-learn==1.6.1",
+    "waitress",
+    "pandas",
+    "flask",
+    "xgboost"
+]
